@@ -1,3 +1,4 @@
+// https://www.acmicpc.net/problem/10986
 #include <iostream>
 #include <vector>
 using namespace std;
