@@ -18,7 +18,7 @@ int main() {
     }
     sum += arr[i];
   }
-
+  // 한 과목과 관련된 수식을 총합과 관련된 수식으로 변환해 로직이 간단해짐
   double result = sum * 100.0 / max / n;
   cout << result << '\n';
 }
