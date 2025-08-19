@@ -14,17 +14,15 @@ int main() {
   int end_index = 1;
   int sum = 1;
 
-  while(end_index != N) {
-    if(sum == N) {
+  while (end_index != N) {
+    if (sum == N) {
       count++;
       end_index++;
       sum = sum + end_index;
-    }
-    else if (sum > N) {
+    } else if (sum > N) {
       sum = sum - start_index;
       start_index++;
-    }
-    else {
+    } else {
       end_index++;
       sum = sum + end_index;
     }
